@@ -1,0 +1,404 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "31facafe-43e9-41a6-9fdd-b2bf2abe6ccb")
+	(paper "A4")
+	(title_block
+		(title "PlanTher")
+		(date "2025-04-21")
+		(rev "A")
+		(company "Getbit Systems")
+		(comment 4 "Designer: Mauricio Barroso Benavides")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bfbe6c-6395-4f5a-a4b8-1cd249f7abef")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b48055d-0fef-44d3-b14d-4aae0058a965")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c53b9df-647b-4200-831f-5947c4ecec12")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e94cea5-f067-4c02-8f9c-0e71527fc0bd")
+	)
+	(wire
+		(pts
+			(xy 146.05 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e560ee-60da-4eb4-bb5f-8fd749ba87e4")
+	)
+	(wire
+		(pts
+			(xy 146.05 107.95) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eefc964-fdb4-43a1-bf9b-601c6761ab55")
+	)
+	(wire
+		(pts
+			(xy 146.05 82.55) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6973afd1-b539-476f-bcf0-958fafab55c0")
+	)
+	(wire
+		(pts
+			(xy 146.05 100.33) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f9c053-0c96-42ca-b7bc-141325c3ccfc")
+	)
+	(wire
+		(pts
+			(xy 146.05 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54e15cd-36c5-4b6e-9500-6b298ca57b0f")
+	)
+	(sheet
+		(at 153.67 80.01)
+		(size 21.59 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "744e9ffd-fcb2-48e8-99c0-27cea32ab87a")
+		(property "Sheetname" "Power"
+			(at 153.67 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 153.67 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED_EN" input
+			(at 153.67 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc692cf3-a5ac-4c4c-aae2-a34d5bae6de0")
+		)
+		(instances
+			(project "PlanTher"
+				(path "/31facafe-43e9-41a6-9fdd-b2bf2abe6ccb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 90.17)
+		(size 22.86 30.48)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "84c2c229-eb1e-46a3-b59a-9571adccb48f")
+		(property "Sheetname" "Peripherals"
+			(at 153.67 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 153.67 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 153.67 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4aa93124-8ccc-4b15-bf0d-07527708745f")
+		)
+		(pin "I2C1_SCL" input
+			(at 153.67 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64f93d87-2740-4617-b9ab-caf0a76d3877")
+		)
+		(pin "SOIL_IO" output
+			(at 153.67 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d602853-76d0-4818-b4ea-a9bd80af5a7d")
+		)
+		(pin "BUZZER_IO" input
+			(at 153.67 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4807aceb-2eb4-4fb8-b404-8a7270dc6e5a")
+		)
+		(pin "LED_IO" input
+			(at 153.67 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3a5d5e5-114b-4ea2-aaf8-51d9118a2702")
+		)
+		(pin "SEL_1" output
+			(at 153.67 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "749650fe-9aba-4fd9-9a7a-2c7ad72f0bea")
+		)
+		(pin "SEL_0" output
+			(at 153.67 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab460688-bed8-4c1e-97d2-241a01526864")
+		)
+		(pin "SEL_COM" input
+			(at 153.67 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9a9c2ff-6d41-42b6-8ebf-5d5e0f355ab8")
+		)
+		(instances
+			(project "PlanTher"
+				(path "/31facafe-43e9-41a6-9fdd-b2bf2abe6ccb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 80.01)
+		(size 26.67 40.64)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "eff3e636-1274-4ec9-a8eb-21cf7c16e5fa")
+		(property "Sheetname" "MCU"
+			(at 119.38 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 119.38 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f531445c-722d-4ea7-92cb-d7667e3dc36e")
+		)
+		(pin "I2C1_SCL" output
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "744162d7-46d2-4dd4-9ce5-8ae9dc95aab4")
+		)
+		(pin "LED_IO" output
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "727bd10f-4479-4bd6-b136-d641823ddeb8")
+		)
+		(pin "LED_EN" output
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2b1bfe6-aee8-43a3-b712-2ac2daee182e")
+		)
+		(pin "BUZZER_IO" output
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45e25faf-e826-43c4-81ea-47e7a304918a")
+		)
+		(pin "SEL_COM" output
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "601000a3-cd6a-403d-98be-ed6a48a08a3c")
+		)
+		(pin "SEL_0" input
+			(at 146.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdc7d13c-5a07-4e9a-aaf0-92882332c74b")
+		)
+		(pin "SEL_1" input
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "657c3489-4443-4718-9079-2861485f5682")
+		)
+		(pin "SOIL_IO" input
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffe93be8-f0b5-4683-99af-6a91b199c452")
+		)
+		(instances
+			(project "PlanTher"
+				(path "/31facafe-43e9-41a6-9fdd-b2bf2abe6ccb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
