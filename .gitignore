@@ -32,3 +32,4 @@ fp-info-cache
 
 # Local settings
 *.kicad_prl
+*.json
