@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "31facafe-43e9-41a6-9fdd-b2bf2abe6ccb")
 	(paper "A4")
 	(title_block
@@ -105,6 +105,10 @@
 	(sheet
 		(at 153.67 80.01)
 		(size 21.59 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -134,16 +138,16 @@
 		)
 		(pin "LED_EN" input
 			(at 153.67 82.55 180)
+			(uuid "bc692cf3-a5ac-4c4c-aae2-a34d5bae6de0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bc692cf3-a5ac-4c4c-aae2-a34d5bae6de0")
 		)
 		(instances
-			(project "PlanTher"
+			(project "planter_pcb"
 				(path "/31facafe-43e9-41a6-9fdd-b2bf2abe6ccb"
 					(page "4")
 				)
@@ -153,6 +157,10 @@
 	(sheet
 		(at 153.67 90.17)
 		(size 22.86 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -182,86 +190,86 @@
 		)
 		(pin "I2C1_SDA" bidirectional
 			(at 153.67 102.87 180)
+			(uuid "4aa93124-8ccc-4b15-bf0d-07527708745f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4aa93124-8ccc-4b15-bf0d-07527708745f")
 		)
 		(pin "I2C1_SCL" input
 			(at 153.67 100.33 180)
+			(uuid "64f93d87-2740-4617-b9ab-caf0a76d3877")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "64f93d87-2740-4617-b9ab-caf0a76d3877")
 		)
 		(pin "SOIL_IO" output
 			(at 153.67 107.95 180)
+			(uuid "7d602853-76d0-4818-b4ea-a9bd80af5a7d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7d602853-76d0-4818-b4ea-a9bd80af5a7d")
 		)
 		(pin "BUZZER_IO" input
 			(at 153.67 95.25 180)
+			(uuid "4807aceb-2eb4-4fb8-b404-8a7270dc6e5a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4807aceb-2eb4-4fb8-b404-8a7270dc6e5a")
 		)
 		(pin "LED_IO" input
 			(at 153.67 92.71 180)
+			(uuid "b3a5d5e5-114b-4ea2-aaf8-51d9118a2702")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b3a5d5e5-114b-4ea2-aaf8-51d9118a2702")
 		)
 		(pin "SEL_1" output
 			(at 153.67 118.11 180)
+			(uuid "749650fe-9aba-4fd9-9a7a-2c7ad72f0bea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "749650fe-9aba-4fd9-9a7a-2c7ad72f0bea")
 		)
 		(pin "SEL_0" output
 			(at 153.67 115.57 180)
+			(uuid "ab460688-bed8-4c1e-97d2-241a01526864")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab460688-bed8-4c1e-97d2-241a01526864")
 		)
 		(pin "SEL_COM" input
 			(at 153.67 113.03 180)
+			(uuid "e9a9c2ff-6d41-42b6-8ebf-5d5e0f355ab8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e9a9c2ff-6d41-42b6-8ebf-5d5e0f355ab8")
 		)
 		(instances
-			(project "PlanTher"
+			(project "planter_pcb"
 				(path "/31facafe-43e9-41a6-9fdd-b2bf2abe6ccb"
 					(page "3")
 				)
@@ -271,6 +279,10 @@
 	(sheet
 		(at 119.38 80.01)
 		(size 26.67 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -300,96 +312,96 @@
 		)
 		(pin "I2C1_SDA" bidirectional
 			(at 146.05 102.87 0)
+			(uuid "f531445c-722d-4ea7-92cb-d7667e3dc36e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f531445c-722d-4ea7-92cb-d7667e3dc36e")
 		)
 		(pin "I2C1_SCL" output
 			(at 146.05 100.33 0)
+			(uuid "744162d7-46d2-4dd4-9ce5-8ae9dc95aab4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "744162d7-46d2-4dd4-9ce5-8ae9dc95aab4")
 		)
 		(pin "LED_IO" output
 			(at 146.05 92.71 0)
+			(uuid "727bd10f-4479-4bd6-b136-d641823ddeb8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "727bd10f-4479-4bd6-b136-d641823ddeb8")
 		)
 		(pin "LED_EN" output
 			(at 146.05 82.55 0)
+			(uuid "d2b1bfe6-aee8-43a3-b712-2ac2daee182e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d2b1bfe6-aee8-43a3-b712-2ac2daee182e")
 		)
 		(pin "BUZZER_IO" output
 			(at 146.05 95.25 0)
+			(uuid "45e25faf-e826-43c4-81ea-47e7a304918a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45e25faf-e826-43c4-81ea-47e7a304918a")
 		)
 		(pin "SEL_COM" output
 			(at 146.05 113.03 0)
+			(uuid "601000a3-cd6a-403d-98be-ed6a48a08a3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "601000a3-cd6a-403d-98be-ed6a48a08a3c")
 		)
 		(pin "SEL_0" input
 			(at 146.05 115.57 0)
+			(uuid "fdc7d13c-5a07-4e9a-aaf0-92882332c74b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fdc7d13c-5a07-4e9a-aaf0-92882332c74b")
 		)
 		(pin "SEL_1" input
 			(at 146.05 118.11 0)
+			(uuid "657c3489-4443-4718-9079-2861485f5682")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "657c3489-4443-4718-9079-2861485f5682")
 		)
 		(pin "SOIL_IO" input
 			(at 146.05 107.95 0)
+			(uuid "ffe93be8-f0b5-4683-99af-6a91b199c452")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ffe93be8-f0b5-4683-99af-6a91b199c452")
 		)
 		(instances
-			(project "PlanTher"
+			(project "planter_pcb"
 				(path "/31facafe-43e9-41a6-9fdd-b2bf2abe6ccb"
 					(page "5")
 				)
@@ -401,4 +413,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
